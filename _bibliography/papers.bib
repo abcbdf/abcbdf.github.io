@@ -29,6 +29,24 @@ abstract={The growing demands on GPU memory posed by the increasing number of ne
 url={https://openreview.net/forum?id=Nofe0rzyhY}
 }
 
+@article{zhao2021adaptive,
+  title={Adaptive diffusion in graph neural networks},
+  author={Zhao, Jialin and Dong, Yuxiao and Ding, Ming and Kharlamov, Evgeny and Tang^, Jie},
+  journal={Advances in neural information processing systems},
+  volume={34},
+  pages={23321--23333},
+  year={2021},
+  google_scholar_id={u-x6o8ySG0sC},
+  abbr={NeurIPS'21},
+  pdf={https://proceedings.neurips.cc/paper/2021/file/c42af2fa7356818e0389593714f59b52-Paper.pdf},
+  supp={https://proceedings.neurips.cc/paper_files/paper/2021/file/c42af2fa7356818e0389593714f59b52-Supplemental.zip},
+  code={https://github.com/abcbdf/ADC},
+  abstract={The success of graph neural networks (GNNs) largely relies on the process of aggregating information from neighbors defined by the input graph structures. Notably, message passing based GNNs, e.g., graph convolutional networks, leverage the immediate neighbors of each node during the aggregation process, and recently, graph diffusion convolution (GDC) is proposed to expand the propagation neighborhood by leveraging generalized graph diffusion. However, the neighborhood size in GDC is manually tuned for each graph by conducting grid search over the validation set, making its generalization practically limited. To address this issue, we propose the adaptive diffusion convolution (ADC) strategy to automatically learn the optimal neighborhood size from the data. Furthermore, we break the conventional assumption that all GNN layers and feature channels (dimensions) should use the same neighborhood for propagation. We design strategies to enable ADC to learn a dedicated propagation neighborhood for each GNN layer and each feature channel, making the GNN architecture fully coupled with graph structures---the unique property that differs GNNs from traditional neural networks. By directly plugging ADC into existing GNNs, we observe consistent and significant outperformance over both GDC and their vanilla versions across various datasets, demonstrating the improved model capacity brought by automatically learning unique neighborhood size per layer and per channel in GNNs.},
+  html={https://proceedings.neurips.cc/paper/2021/hash/c42af2fa7356818e0389593714f59b52-Abstract.html},
+  video={https://www.youtube.com/watch?v=K2p_Zd6jOPw},
+  selected={true}
+}
+
 @inproceedings{zhangplug,
   title={Plug-and-Play: An Efficient Post-training Pruning Method for Large Language Models},
   author={Zhang^, Yingtao and Bai, Haoli and Lin, Haokun and Zhao, Jialin and Hou, Lu and Cannistraci^, Carlo Vittorio},
@@ -55,20 +73,4 @@ url={https://openreview.net/forum?id=Nofe0rzyhY}
   selected={true}
 }
 
-@article{zhao2021adaptive,
-  title={Adaptive diffusion in graph neural networks},
-  author={Zhao, Jialin and Dong, Yuxiao and Ding, Ming and Kharlamov, Evgeny and Tang^, Jie},
-  journal={Advances in neural information processing systems},
-  volume={34},
-  pages={23321--23333},
-  year={2021},
-  google_scholar_id={u-x6o8ySG0sC},
-  abbr={NeurIPS'21},
-  pdf={https://proceedings.neurips.cc/paper/2021/file/c42af2fa7356818e0389593714f59b52-Paper.pdf},
-  supp={https://proceedings.neurips.cc/paper_files/paper/2021/file/c42af2fa7356818e0389593714f59b52-Supplemental.zip},
-  code={https://github.com/abcbdf/ADC},
-  abstract={The success of graph neural networks (GNNs) largely relies on the process of aggregating information from neighbors defined by the input graph structures. Notably, message passing based GNNs, e.g., graph convolutional networks, leverage the immediate neighbors of each node during the aggregation process, and recently, graph diffusion convolution (GDC) is proposed to expand the propagation neighborhood by leveraging generalized graph diffusion. However, the neighborhood size in GDC is manually tuned for each graph by conducting grid search over the validation set, making its generalization practically limited. To address this issue, we propose the adaptive diffusion convolution (ADC) strategy to automatically learn the optimal neighborhood size from the data. Furthermore, we break the conventional assumption that all GNN layers and feature channels (dimensions) should use the same neighborhood for propagation. We design strategies to enable ADC to learn a dedicated propagation neighborhood for each GNN layer and each feature channel, making the GNN architecture fully coupled with graph structures---the unique property that differs GNNs from traditional neural networks. By directly plugging ADC into existing GNNs, we observe consistent and significant outperformance over both GDC and their vanilla versions across various datasets, demonstrating the improved model capacity brought by automatically learning unique neighborhood size per layer and per channel in GNNs.},
-  html={https://proceedings.neurips.cc/paper/2021/hash/c42af2fa7356818e0389593714f59b52-Abstract.html},
-  video={https://www.youtube.com/watch?v=K2p_Zd6jOPw},
-  selected={true}
-}
+
