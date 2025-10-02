@@ -1,6 +1,17 @@
 ---
 ---
 
+@article{zhao2025bd,
+  title={Accelerating Attention with Basis Decomposition},
+  author={Zhao^, Jialin},
+  journal={Under review},
+  year={2025},
+  abbr={Preprint},
+  code={https://github.com/abcbdf/basis-decomposition-official},
+  abstract={Attention is a core operation in large language models (LLMs) and vision-language models (VLMs). We present BD Attention (BDA), the first lossless algorithmic reformulation of attention. BDA is enabled by a simple matrix identity from Basis Decomposition (BD), which restructures multi-head projections into a compact form while preserving exact outputs. Unlike I/O-aware system optimizations such as FlashAttention, BDA provides a mathematically guaranteed acceleration that is architecture-agnostic. On DeepSeek-V2-Lite (16B, FP16), BDA requires only 4s of offline preparation with no retraining required and, on modern GPUs, achieves 32% faster key/value projections and 25% smaller weights, while increasing end-to-end perplexity (PPL) by just 0.02% (FP16) or 0.0004% (FP32)—a negligible effect on model performance. These results position BDA as the first theoretically exact method for lossless attention acceleration that is complementary to existing engineering-level optimizations. Our code is available at https://github.com/abcbdf/basis-decomposition-official},
+  selected={true}
+}
+
 @inproceedings{
 zhao2025pivoting,
 title={Pivoting Factorization: A Compact Meta Low-Rank Representation of Sparsity for Efficient Inference in Large Language Models},
@@ -12,7 +23,7 @@ selected={true},
 pdf={https://arxiv.org/pdf/2501.19090},
 code={https://github.com/biomedical-cybernetics/pivoting-factorization},
 abstract={The rapid growth of Large Language Models has driven demand for effective model compression techniques to reduce memory and computation costs. Low-rank pruning has gained attention for its GPU compatibility across all densities. However, low-rank pruning struggles to match the performance of semi-structured pruning, often doubling perplexity at similar densities. In this paper, we propose Pivoting Factorization (PIFA), a novel lossless meta low-rank representation that unsupervisedly learns a compact form of any low-rank representation, effectively eliminating redundant information. PIFA identifies pivot rows (linearly independent rows) and expresses non-pivot rows as linear combinations, achieving 24.2% additional memory savings and 24.6% faster inference over low-rank layers at rank = 50% of dimension. To mitigate the performance degradation caused by low-rank pruning, we introduce a novel, retraining-free reconstruction method that minimizes error accumulation (M). MPIFA, combining M and PIFA into an end-to-end framework, significantly outperforms existing low-rank pruning methods, and achieves performance comparable to semi-structured pruning, while surpassing it in GPU efficiency and compatibility. Our code is available at https://github.com/biomedical-cybernetics/pivoting-factorization.},
-url={https://openreview.net/forum?id=5OLRHkzTYk}
+html={https://icml.cc/virtual/2025/poster/46433}
 }
 
 @inproceedings{
@@ -26,11 +37,20 @@ selected={true},
 pdf={https://arxiv.org/pdf/2405.15481},
 code={https://github.com/biomedical-cybernetics/sparse-spectral-training},
 abstract={The growing demands on GPU memory posed by the increasing number of neural network parameters call for training approaches that are more memory-efficient. Previous memory reduction training techniques, such as Low-Rank Adaptation (LoRA) and ReLoRA, face challenges, with LoRA being constrained by its low-rank structure, particularly during intensive tasks like pre-training, and ReLoRA suffering from saddle point issues. In this paper, we propose Sparse Spectral Training (SST) to optimize memory usage for pre-training. SST updates all singular values and selectively updates singular vectors through a multinomial sampling method weighted by the magnitude of the singular values. Furthermore, SST employs singular value decomposition to initialize and periodically reinitialize low-rank parameters, reducing distortion relative to full-rank training compared to other low-rank methods. Through comprehensive testing on both Euclidean and hyperbolic neural networks across various tasks, SST demonstrates its ability to outperform existing memory reduction training methods and is comparable to full-rank training in various cases. On LLaMA-1.3B, with only 18.7% of the parameters trainable compared to full-rank training (using a rank equivalent to 6% of the embedding dimension), SST reduces the perplexity gap between other low-rank methods and full-rank training by 97.4%. This result highlights SST as an effective parameter-efficient technique for model pre-training.},
-url={https://openreview.net/forum?id=Nofe0rzyhY}
+html={https://icml.cc/virtual/2025/poster/45482}
+}
+
+@article{zhao2025adaptive,
+  title={Adaptive Cannistraci-Hebb Network Automata Modelling of Complex Networks for Path-based Link Prediction},
+  author={Zhao, Jialin and Muscoloni, Alessandro and Michieli, Umberto and Zhang, Yingtao and Cannistraci^, Carlo Vittorio},
+  journal={Advances in neural information processing systems},
+  year={2025},
+  abbr={NeurIPS'25},
+  selected={true}
 }
 
 @article{zhao2021adaptive,
-  title={Adaptive diffusion in graph neural networks},
+  title={Adaptive Cannistraci-Hebb Network Automata Modelling of Complex Networks for Path-based Link Prediction},
   author={Zhao, Jialin and Dong, Yuxiao and Ding, Ming and Kharlamov, Evgeny and Tang^, Jie},
   journal={Advances in neural information processing systems},
   volume={34},
@@ -46,6 +66,16 @@ url={https://openreview.net/forum?id=Nofe0rzyhY}
   video={https://www.youtube.com/watch?v=K2p_Zd6jOPw},
   selected={true}
 }
+
+@article{zhangchts,
+  title={Brain network science modelling of sparse neural networks enables Transformers and LLMs to perform as fully connected},
+  author={Zhang, Yingtao and Cerretti, Diego and Zhao, Jialin and Wu, Wenjing and Liao, Ziheng and Michieli, Umberto and Cannistraci^, Carlo Vittorio},
+  journal={Advances in neural information processing systems},
+  year={2025},
+  abbr={NeurIPS'25},
+  selected={true}
+}
+
 
 @inproceedings{zhangplug,
   title={Plug-and-Play: An Efficient Post-training Pruning Method for Large Language Models},
