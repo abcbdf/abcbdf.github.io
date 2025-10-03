@@ -7,6 +7,7 @@
   journal={Under review},
   year={2025},
   abbr={Preprint},
+  pdf={https://arxiv.org/pdf/2510.01718},
   code={https://github.com/abcbdf/basis-decomposition-official},
   abstract={Attention is a core operation in large language models (LLMs) and vision-language models (VLMs). We present BD Attention (BDA), the first lossless algorithmic reformulation of attention. BDA is enabled by a simple matrix identity from Basis Decomposition (BD), which restructures multi-head projections into a compact form while preserving exact outputs. Unlike I/O-aware system optimizations such as FlashAttention, BDA provides a mathematically guaranteed acceleration that is architecture-agnostic. On DeepSeek-V2-Lite (16B, FP16), BDA requires only 4s of offline preparation with no retraining required and, on modern GPUs, achieves 32% faster key/value projections and 25% smaller weights, while increasing end-to-end perplexity (PPL) by just 0.02% (FP16) or 0.0004% (FP32)—a negligible effect on model performance. These results position BDA as the first theoretically exact method for lossless attention acceleration that is complementary to existing engineering-level optimizations. Our code is available at https://github.com/abcbdf/basis-decomposition-official},
   selected={true}
