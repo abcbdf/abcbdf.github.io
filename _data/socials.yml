@@ -20,7 +20,7 @@ github_username: abcbdf # your GitHub user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-# linkedin_username: # your LinkedIn user name
+linkedin_username: jialin-zhao-b83858171 # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -49,3 +49,5 @@ scholar_userid: IGAbMb4AAAAJ # your Google Scholar ID
 #  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #  title: Custom Social
 #  url: https://www.alberteinstein.com/
+
+dblp_url: https://dblp.org/pid/160/9058-4.html # your DBLP profile url
