@@ -28,14 +28,6 @@ I’m a Ph.D. candidate at Computer Science and Technology at Tsinghua Universit
 
 My research focuses on efficient AI, natural language processing, and graph learning.
 
-## Education
-
-- **Ph.D. in Computer Science and Technology**, Tsinghua University, Beijing, China, 2023-2027 (expected)
-  Advised by [Prof. Carlo Cannistraci](https://brain.tsinghua.edu.cn/en/info/1010/1003.htm).
-- **Master of Data Science**, Tsinghua University and University of Washington, Beijing, China and Seattle, WA, US, 2019-2021
-  Advised by [Prof. Jie Tang](https://keg.cs.tsinghua.edu.cn/jietang/).
-- **B.E. in Computer Science and Technology**, Tsinghua University, Beijing, China, 2015-2019
-
 ## Experience
 
 - **Research Intern, Post-training Team**, Meta Superintelligence Labs, Menlo Park, California, US, 2026.5-2026.8 (expected)
