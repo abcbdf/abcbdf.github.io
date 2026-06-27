@@ -1,6 +1,29 @@
 ---
 ---
 
+@inproceedings{wu2026gda,
+  title={A Generalized Geometric Theoretical Framework of Centroid Discriminant Analysis for Linear Classification of Multi-dimensional Data},
+  author={Wu, Yue and Zhao, Jialin and Cannistraci^, Carlo Vittorio},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  abbr={ICLR'26},
+  pdf={https://openreview.net/pdf?id=bp9DOHb1mk},
+  code={https://github.com/biomedical-cybernetics/Centroid_discriminant_Analysis},
+  abstract={With the advent of the neural network era, traditional machine learning methods have increasingly been overshadowed. Nevertheless, continuing research on the role of geometry for learning in data science is crucial to envision and understand new principles behind the design of efficient machine learning. Linear classifiers are favored in certain tasks due to their reduced susceptibility to overfitting and their ability to provide interpretable decision boundaries. However, achieving both scalability and high predictive performance in linear classification remains a persistent challenge. Here, we propose a theoretical framework named geometric discriminant analysis (GDA). GDA includes the family of linear classifiers that can be expressed as a function of a centroid discriminant basis (CDB0) - the connection line between two centroids - adjusted by geometric corrections under different constraints. We demonstrate that linear discriminant analysis (LDA) is a subcase of the GDA theoretical framework, and we show its convergence to CDB0 under certain conditions. Then, based on the GDA framework, we propose an efficient linear classifier named centroid discriminant analysis (CDA) which is defined as a special case of GDA under a 2D plane geometric constraint. CDA training is initialized starting from CDB0 and involves the iterative calculation of new adjusted centroid discriminant lines whose optimal rotations on the associated 2D planes are searched via Bayesian optimization. CDA has good scalability (quadratic time complexity) which is lower than LDA and support vector machine (SVM) (cubic complexity). Results on 27 real datasets across classification tasks of standard images, medical images and chemical properties, offer empirical evidence that CDA outperforms other linear methods such as LDA, SVM and logistic regression (LR) in terms of scalability, performance and stability. Furthermore, we show that linear CDA can be generalized to nonlinear CDA via kernel method, demonstrating improvements on the linear version with tests on three challenging datasets of images and chemical data. GDA's general validity as a new theoretical framework may inspire the design of new classifiers under the definition of different geometric constraints, paving the way towards a deeper understanding of the role of geometry in learning from data.},
+  html={https://iclr.cc/virtual/2026/poster/10008572}
+}
+
+@inproceedings{wu2026alignment,
+  title={Alignment-Enhanced Integration of Connectivity and Spectral Sparsity in Dynamic Sparse Training of LLM},
+  author={Wu, Wenjing and Zhang, Yingtao and Zhao, Jialin and Cannistraci^, Carlo Vittorio},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  abbr={ICLR'26},
+  pdf={https://openreview.net/pdf?id=jZplmg7Ad9},
+  abstract={With the rapid development of large language models (LLMs), identifying efficient strategies for training such large-scale systems has become increasingly critical. Although LLMs have achieved remarkable success across diverse applications, the necessity of maintaining full dense matrices during pre-training has been questioned, giving rise to parameter-efficient sparse pre-training methods which retains parameter-efficiency in both training and inference. These methods can be further divided into connectivity sparse training and spectral sparse training, with dynamic connectivity sparse training and low-rank factorization emerging as representative approaches for the two branches. However, a unified framework that effectively combines the strengths of both has yet to be established. In this work, we observe that the cancellation effect between the sparse and low-rank branches may limit the expressivity of the model, manifesting as output conflicts when the two components are combined. To address this issue, we first quantify the cancellation effect using the overlap cancellation ratio (OCR) and then propose a novel scheme that integrates dynamic sparse training with low-rank training, introducing a simple yet effective alignment loss to mitigate the disagreement between the two branches and promote better collaboration. We validate this scheme by combining a representative dynamic sparse training method, CHTs, with low-rank training, resulting in a new parameter-efficient training approach termed CHTsL. The method is evaluated on LLaMA60M and LLaMA130M using the OpenWebText and C4 datasets, where only 10%, 20%, and 30% of the parameters are preserved compared to dense training. Experimental results demonstrate that our proposed scheme effectively alleviates the cancellation effect, especially in the Q and K matrices of the attention layers, and improves training stability and performance compared to the naive combination of sparse and low-rank components. Additionally, the new scheme enables CHTsL to consistently outperform other parameter-efficient sparse training methods under the same parameter budget, achieving performance closest to that of dense training.},
+  html={https://iclr.cc/virtual/2026/poster/10007866}
+}
+
 @article{zhao2025bd,
   title={Accelerating Attention with Basis Decomposition},
   author={Zhao^, Jialin},
