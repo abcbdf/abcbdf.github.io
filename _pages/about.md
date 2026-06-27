@@ -30,7 +30,7 @@ My research focuses on efficient AI, natural language processing, and graph lear
 
 ## Experience
 
-- **Research Intern, Post-training Team**, Meta Superintelligence Labs, Menlo Park, California, US, 2026.5-2026.8 (expected)
+- **Research Intern**, Meta Superintelligence Labs, Menlo Park, California, US, 2026.5-2026.8
 - **Senior Research Engineer, Personalization**, Disney+ Hotstar, Beijing, China, 2021.7-2023.7
 - **Trading Intern**, Jane Street, Hong Kong, China and New York, NY, US, 2019.7-2019.9
 - **Research Intern**, Microsoft Research Asia, Beijing, China, 2019.1-2019.4
