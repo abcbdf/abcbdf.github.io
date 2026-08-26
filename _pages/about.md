@@ -24,13 +24,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a Ph.D. candidate at Computer Science and Technology at Tsinghua University, advised by [Prof. Carlo Cannistraci](https://brain.tsinghua.edu.cn/en/info/1010/1003.htm). I obtained my Master's degree in Data Science from Tsinghua University and the University of Washington, advised by [Prof. Jie Tang](https://keg.cs.tsinghua.edu.cn/jietang/), and my B.E. at Computer Science and Technology at Tsinghua University. 
+I’m a Ph.D. candidate at Computer Science and Technology at Tsinghua University, advised by [Prof. Yuxiao Dong](https://keg.cs.tsinghua.edu.cn/yuxiao/). I obtained my Master's degree in Data Science from Tsinghua University and the University of Washington, advised by [Prof. Jie Tang](https://keg.cs.tsinghua.edu.cn/jietang/), and my B.E. at Computer Science and Technology at Tsinghua University. 
 
 My research focuses on efficient AI, natural language processing, and graph learning.
 
 ## Experience
 
-- **Research Intern**, Meta Superintelligence Labs, Menlo Park, California, US, 2026.5-2026.8
+- **Research Intern**, DeepSeek, Beijing, China, 2026.8-present
+- **Research Intern**, Meta Superintelligence Labs, Menlo Park, California, US, 2026.5-2026.7
 - **Senior Research Engineer, Personalization**, Disney+ Hotstar, Beijing, China, 2021.7-2023.7
 - **Trading Intern**, Jane Street, Hong Kong, China and New York, NY, US, 2019.7-2019.9
 - **Research Intern**, Microsoft Research Asia, Beijing, China, 2019.1-2019.4

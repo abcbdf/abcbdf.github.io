@@ -5,7 +5,7 @@
       institution: Tsinghua University, Beijing, China
       year: 2023 - 2027 (expected)
       description:
-        - Advised by Professor Carlo V. Cannistraci.
+        - Advised by Professor Yuxiao Dong.
     - title: Master of Data Science
       institution: University of Washington and Tsinghua University, Seattle, WA, US and Beijing, China
       year: 2019 - 2021
@@ -18,9 +18,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Intern
+      institution: DeepSeek, Beijing, China
+      year: 2026.8 - present
     - title: Research Intern, Post-training Team
       institution: Meta Superintelligence Labs, Menlo Park, California, US
-      year: 2026.5 - 2026.8 (expected)
+      year: 2026.5 - 2026.7
     - title: Senior Research Engineer, Personalization
       institution: Disney+ Hotstar, Beijing, China
       year: 2021.7 - 2023.7
