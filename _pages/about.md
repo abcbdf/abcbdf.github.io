@@ -30,10 +30,21 @@ My research focuses on efficient AI, natural language processing, and graph lear
 
 ## Experience
 
-- **Research Intern**, DeepSeek, Beijing, China, 2026.8-present
-- **Research Intern**, Meta Superintelligence Labs, Menlo Park, California, US, 2026.5-2026.7
-- **Senior Research Engineer, Personalization**, Disney+ Hotstar, Beijing, China, 2021.7-2023.7
-- **Trading Intern**, Jane Street, Hong Kong, China and New York, NY, US, 2019.7-2019.9
-- **Research Intern**, Microsoft Research Asia, Beijing, China, 2019.1-2019.4
+<p style="margin-top:1em;">
+  <strong>Research Intern</strong>, DeepSeek, Beijing, China, 2026.8–present
+</p>
+<p>
+  <strong>Research Intern</strong>, Meta Superintelligence Labs, Menlo Park, CA, US, 2026.5–2026.7<br>
+  Mentored by <a href="http://qiqi-helloworld.github.io/">Qi Qi</a>.
+</p>
+<p>
+  <strong>Senior Research Engineer, Personalization</strong>, Disney+ Hotstar, Beijing, China, 2021.7–2023.7
+</p>
+<p>
+  <strong>Trading Intern</strong>, Jane Street, Hong Kong, China and New York, NY, US, 2019.7–2019.9
+</p>
+<p>
+  <strong>Research Intern</strong>, Microsoft Research Asia, Beijing, China, 2019.1–2019.4
+</p>
 
 Email: jialin [dot] zhao97 [at] gmail [dot] com
