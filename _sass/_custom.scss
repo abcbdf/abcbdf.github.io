@@ -1,0 +1,99 @@
+/*******************************************************************************
+ * Custom layout overrides
+ *
+ * Imported last so it wins over the upstream al-folio partials. Keeping the
+ * changes here instead of editing `_base.scss` keeps upstream rebases clean.
+ ******************************************************************************/
+
+// Profile picture: upstream sets 15%, which renders the photo at ~120px on a
+// desktop viewport — too small to read a face.
+@media (min-width: 576px) {
+  .profile {
+    width: 25%;
+  }
+}
+
+// Section headings: give each block a divider and consistent breathing room,
+// so the sections stop running into each other.
+.post .post-content > h2,
+article > h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.7rem;
+}
+
+// Social icons: the row mixes Font Awesome (GitHub, LinkedIn) with Academicons
+// (Google Scholar, DBLP), which sit on different em-boxes and render at
+// visibly different sizes. Normalising the box makes them line up.
+.social .contact-icons {
+  margin-top: 1.4rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.6rem;
+
+  a {
+    display: inline-block;
+    margin-right: 0.9rem;
+
+    i::before {
+      display: inline-block;
+      width: 1.15em;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    // Academicons run small next to Font Awesome at the same font-size.
+    i.ai::before {
+      font-size: 1.12em;
+    }
+  }
+}
+
+// Link to the CV, sitting just under the contact icons.
+.cv-link {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+// CV-style entries: description on the left, date right-aligned into its own
+// column so the timeline can be scanned vertically.
+.cv-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.cv-entry-main {
+  flex: 1 1 auto;
+}
+
+.cv-entry-sub {
+  display: block;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+
+.cv-entry-date {
+  flex: 0 0 auto;
+  color: var(--global-text-color-light);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+// On narrow screens the two columns do not fit side by side; stack them and
+// lead with the date.
+@media (max-width: 576px) {
+  .cv-entry {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .cv-entry-date {
+    order: -1;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,13 @@
+/*******************************************************************************
+ * Custom palette overrides
+ *
+ * Imported BEFORE `_variables.scss`. Every variable there is declared with
+ * `!default`, so whatever is set here wins and propagates automatically to the
+ * light theme, the dark theme and the `prefers-color-scheme` block.
+ ******************************************************************************/
+
+// Light-theme accent: deep indigo instead of al-folio's magenta.
+$purple-color: #2f4f8f;
+
+// Dark-theme accent: lighter indigo, readable on the dark background.
+$cyan-color: #7aa2e3;

@@ -49,22 +49,66 @@ layout: default
       </div>
     {% endif %}
 
+    <p class="cv-link">
+      Full resume in <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">PDF</a>.
+    </p>
+
     <div style="clear: both;"></div>
 
-    <h2>
-        Education
-    </h2>
-    <p style="margin-top:1em;">
-      <strong>Ph.D. in Computer Science and Technology</strong>, Tsinghua University, Beijing, China, 2023–2027 (expected)<br>
-      Advised by <a href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Prof. Yuxiao Dong</a>.
-    </p>
-    <p>
-      <strong>Master of Data Science</strong>, Tsinghua University and University of Washington, Beijing, China and Seattle, WA, US, 2019–2021<br>
-      Advised by <a href="https://keg.cs.tsinghua.edu.cn/jietang/">Prof. Jie Tang</a>.
-    </p>
-    <p>
-      <strong>B.E. in Computer Science and Technology</strong>, Tsinghua University, Beijing, China, 2015–2019
-    </p>
+    <h2>experience</h2>
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <strong>Research Intern</strong>, Backbone Team, DeepSeek AI, Beijing, China
+      </div>
+      <div class="cv-entry-date">2026.8&ndash;present</div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <strong>Research Intern</strong>, Post-training Team, Meta Superintelligence Labs, Menlo Park, CA, US
+        <span class="cv-entry-sub">Mentored by <a href="http://qiqi-helloworld.github.io/">Qi Qi</a>.</span>
+      </div>
+      <div class="cv-entry-date">2026.5&ndash;2026.7</div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <strong>Senior Research Engineer</strong>, Personalization, Disney+ Hotstar, Beijing, China
+      </div>
+      <div class="cv-entry-date">2021.7&ndash;2023.7</div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <strong>Trading Intern</strong>, Jane Street, Hong Kong, China and New York, NY, US
+      </div>
+      <div class="cv-entry-date">2019.7&ndash;2019.9</div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <strong>Research Intern</strong>, Microsoft Research Asia, Beijing, China
+      </div>
+      <div class="cv-entry-date">2019.1&ndash;2019.4</div>
+    </div>
+
+    <h2>education</h2>
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <strong>Ph.D. in Computer Science and Technology</strong>, Tsinghua University, Beijing, China
+        <span class="cv-entry-sub">Advised by <a href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Prof. Yuxiao Dong</a>.</span>
+      </div>
+      <div class="cv-entry-date">2023&ndash;2027 (expected)</div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <strong>Master of Data Science</strong>, Tsinghua University and University of Washington, Beijing, China and Seattle, WA, US
+        <span class="cv-entry-sub">Advised by <a href="https://keg.cs.tsinghua.edu.cn/jietang/">Prof. Jie Tang</a>.</span>
+      </div>
+      <div class="cv-entry-date">2019&ndash;2021</div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <strong>B.E. in Computer Science and Technology</strong>, Tsinghua University, Beijing, China
+      </div>
+      <div class="cv-entry-date">2015&ndash;2019</div>
+    </div>
 
 
     <!-- News -->
@@ -83,13 +127,6 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <h2>
-        Vitæ
-    </h2>
-          <p>
-        Full Resume in <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">PDF</a>.
-      </p>
-
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -106,10 +143,8 @@ layout: default
       {% include newsletter.liquid center=true %}
     {% endif %}
 
-    <h2>
-        Services
-    </h2>
-    <p style="margin-top:1em;"><strong>Conference reviewer:</strong> ICML (2025), NeurIPS (2025), ICLR (2026)</p>
+    <h2>services</h2>
+    <p style="margin-top:1em;"><strong>Conference reviewer:</strong> ICML (2025), NeurIPS (2025, 2026), ICLR (2026)</p>
     <p><strong>Journal reviewer:</strong> IEEE Transactions on Big Data, Applied Network Science, Scientific Reports</p> 
 
          
